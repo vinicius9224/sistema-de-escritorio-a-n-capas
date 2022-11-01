@@ -31,7 +31,7 @@ namespace capaPresentaciones
         {
 
   
-                dataGridView1.DataSource = objeto.Mostrar_completo();
+         dataGridView1.DataSource = objeto.Mostrar_completo();
 
 
         }
