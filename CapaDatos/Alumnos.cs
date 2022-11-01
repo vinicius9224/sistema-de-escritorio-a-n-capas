@@ -23,11 +23,10 @@ namespace CapaDatos
         {
             comando.Connection = conexion.Abrir();
             comando.CommandText = "select *from prueba1";
+
             SqlDataReader reader = comando.ExecuteReader();
 
-
             tabla.Load(reader);
-
 
             conexion.Cerrar();
             return tabla;
